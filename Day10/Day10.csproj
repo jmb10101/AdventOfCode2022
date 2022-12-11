@@ -8,6 +8,13 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <None Remove="input-test.txt" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="input-test.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
       <Content Include="input.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
